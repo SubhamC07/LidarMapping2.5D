@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="custom_terrain">
+    <static>true</static>
+    <link name="link">
+      <!-- Visual geometry -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://custom_terrain/meshes/custom_terrain.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- Collision geometry -->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://custom_terrain/meshes/custom_terrain.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
