@@ -44,5 +44,9 @@
   gz_type_name: "ignition.msgs.IMU"
   direction: GZ_TO_ROS
 
+- topic_name: "/velodyne_points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: "GZ_TO_ROS"
 
   
