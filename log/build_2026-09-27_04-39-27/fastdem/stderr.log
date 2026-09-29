@@ -1,7 +1,0 @@
-In file included from [01m[K/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem/lib/nanoPCL/include/nanopcl/filters/downsample.hpp:35[m[K,
-                 from [01m[K/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem/src/fastdem.cpp:11[m[K:
-[01m[K/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem/lib/nanoPCL/include/nanopcl/filters/impl/voxel_grid_impl.hpp:[m[K In function ‘[01m[Knanopcl::PointCloud nanopcl::filters::voxelGrid(nanopcl::PointCloud&&, float, nanopcl::filters::VoxelMode)[m[K’:
-[01m[K/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem/lib/nanoPCL/include/nanopcl/filters/impl/voxel_grid_impl.hpp:235:19:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
-  235 |   return [01;35m[Kstd::move(result)[m[K;
-      |          [01;35m[K~~~~~~~~~^~~~~~~~[m[K
-[01m[K/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem/lib/nanoPCL/include/nanopcl/filters/impl/voxel_grid_impl.hpp:235:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call

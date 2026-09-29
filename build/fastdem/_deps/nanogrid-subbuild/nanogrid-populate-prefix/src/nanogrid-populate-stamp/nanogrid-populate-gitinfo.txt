@@ -1,3 +1,0 @@
-repository='https://github.com/Ikhyeon-Cho/nanoGrid.git'
-module=''
-tag='origin'

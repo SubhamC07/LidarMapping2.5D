@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar/segmentation_node" "TARGETS" "segmentation_node" "DESTINATION" "lib/segmentation_lidar")
