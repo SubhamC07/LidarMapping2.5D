@@ -28,7 +28,7 @@ class MemoryUsageComparator(Node):
         # 2. FastDEM 2.5D GridMap subscription
         self.gridmap_sub = self.create_subscription(
             GridMap,
-            '/fastdem/postprocess/gridmap',  # Adjust to your FastDEM GridMap topic name
+            '/fastdem/mapping/gridmap',  # Adjust to your FastDEM GridMap topic name
             self.gridmap_callback,
             qos_profile_sensor_data
         )
@@ -44,7 +44,7 @@ class MemoryUsageComparator(Node):
         # Setup GUI Plot
         plt.ion()
         self.fig, (self.ax_map, self.ax_bar) = plt.subplots(1, 2, figsize=(14, 6))
-        self.fig.canvas.manager.set_window_title('Memory Comparator Chart')
+        self.fig.canvas.manager.set_window_title('Memory Usage Comparator Chart')
 
         self.create_timer(0.2, self.update_plot)
         self.get_logger().info("FastDEM GridMap Memory Comparator initialized.")

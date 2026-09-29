@@ -1,0 +1,6 @@
+{
+  "package_name": "jsk_recognition_msgs",
+  "non_idl_tuples": [
+    "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/patchwork-plusplus-ros2/jsk_recognition_msgs:msg/PolygonArray.msg"
+  ]
+}

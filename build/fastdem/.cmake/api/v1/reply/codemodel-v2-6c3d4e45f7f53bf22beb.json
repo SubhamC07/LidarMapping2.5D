@@ -1,0 +1,137 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3816d6dd564ec8cc57f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/nanogrid-build",
+					"jsonFile" : "directory-_deps.nanogrid-build-Release-16532ab9a2a6bc9c8723.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/fastdem/_deps/nanogrid-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/nanoPCL",
+					"jsonFile" : "directory-lib.nanoPCL-Release-27240c91bfe7852bd193.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/nanoPCL"
+				},
+				{
+					"build" : "lib/stb",
+					"jsonFile" : "directory-lib.stb-Release-5cc457ceb8184d3b4db9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/stb"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "fastdem",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nanoGrid",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "nanoPCL",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fastdem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastdem-Release-a21b6c9c7c2feb3839b4.json",
+					"name" : "fastdem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanoGrid::@7b65f35c6cd80325ebfe",
+					"jsonFile" : "target-nanoGrid-Release-8450c9d23ee77953f775.json",
+					"name" : "nanoGrid",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/fastdem",
+		"source" : "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/FastDEM/fastdem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (-) JobUnselected: {'identifier': 'fastdem'}
+[0.000994] (-) JobUnselected: {'identifier': 'fastdem_ros'}
+[0.001038] (-) JobUnselected: {'identifier': 'fastdem_ros2'}
+[0.001075] (-) JobUnselected: {'identifier': 'jsk_recognition_msgs'}
+[0.001110] (-) JobUnselected: {'identifier': 'lid_description'}
+[0.001150] (-) JobUnselected: {'identifier': 'lid_simulation'}
+[0.001187] (-) JobUnselected: {'identifier': 'patchwork_plusplus'}
+[0.001221] (-) JobUnselected: {'identifier': 'velodyne_description'}
+[0.001255] (-) JobUnselected: {'identifier': 'velodyne_gazebo_plugins'}
+[0.001290] (-) JobUnselected: {'identifier': 'velodyne_simulator'}
+[0.001332] (segmentation_lidar) JobQueued: {'identifier': 'segmentation_lidar', 'dependencies': OrderedDict()}
+[0.003181] (segmentation_lidar) JobStarted: {'identifier': 'segmentation_lidar'}
+[0.037043] (segmentation_lidar) JobProgress: {'identifier': 'segmentation_lidar', 'progress': 'cmake'}
+[0.038546] (segmentation_lidar) Command: {'cmd': ['/usr/bin/cmake', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/segmentation_lidar', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar'], 'cwd': '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/subham/subt_ws/src/subt_cave_sim/models:'), ('LANGUAGE', 'en_IN:en'), ('USER', 'subham'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_gazebo_plugins/lib:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/patchwork_plusplus/lib:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/jsk_recognition_msgs/lib:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_ros2/lib:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_core/lib:/home/subham/anvrit_ws/install/astra_camera/lib:/home/subham/anvrit_ws/install/astra_camera_msgs/lib:/home/subham/igvc/install/velodyne_gazebo_plugins/lib:/home/subham/colcon_ws/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/subham'), ('OLDPWD', '/home/subham'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/subham/.nvm/versions/node/v24.19.0/bin'), ('NVM_INC', '/home/subham/.nvm/versions/node/v24.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2038'), ('SYSTEMD_EXEC_PID', '3268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4348'), ('NVM_DIR', '/home/subham/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install:/home/subham/rover_ws/install:/home/subham/igvc/install:/home/subham/colcon_ws/install:/home/subham/anvrit_ws/install:/home/subham/omokai_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subham'), ('JOURNAL_STREAM', '8:22697'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/fastdem/lib/x86_64-linux-gnu/pkgconfig:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/fastdem/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subham'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/subham/gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ONNXRUNTIME_ROOT', '/opt/ros/humble'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/subham/.nvm/versions/node/v24.19.0/bin:/opt/ros/humble/bin:/home/subham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thirdly:@/tmp/.ICE-unix/2513,unix/thirdly:/tmp/.ICE-unix/2513'), ('INVOCATION_ID', '046ab86eab5f415aa50d51e791c411a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L3IAW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_simulator:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_description:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_gazebo_plugins:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/salsanext_ros2:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/patchwork_plusplus:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_description:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/jsk_recognition_msgs:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_ros2:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_core:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/fastdem_ros2:/home/subham/omokai_ws/install/llm_simulation:/home/subham/omokai_ws/install/llm_prompt:/home/subham/omokai_ws/install/llm_navigation:/home/subham/omokai_ws/install/llm_description:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_simulation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_perception:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_navigation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_description:/home/subham/rover_ws/install/rover_navigation:/home/subham/rover_ws/install/rover_gazebo:/home/subham/rover_ws/install/rover_description:/home/subham/rover_ws/install/rf2o_laser_odometry:/home/subham/anvrit_ws/install/rplidar_ros:/home/subham/anvrit_ws/install/astra_camera:/home/subham/anvrit_ws/install/astra_camera_msgs:/home/subham/anvrit_ws/install/anvrit_perception:/home/subham/anvrit_ws/install/anvrit_odometry:/home/subham/anvrit_ws/install/anvrit_nav2:/home/subham/anvrit_ws/install/anvrit_description:/home/subham/igvc/install/velodyne_simulator:/home/subham/igvc/install/velodyne_description:/home/subham/igvc/install/velodyne_gazebo_plugins:/home/subham/igvc/install/igvc_simulation:/home/subham/igvc/install/igvc_perception:/home/subham/igvc/install/igvc_navigation:/home/subham/igvc/install/igvc_description:/home/subham/colcon_ws/install/ur_simulation_gz:/home/subham/colcon_ws/install/ur_description:/home/subham/colcon_ws/install/ur5_control_2481:/home/subham/colcon_ws/install/s2481_ebot_description:/home/subham/colcon_ws/install/ros2ai:/home/subham/colcon_ws/install/linkattacher_msgs:/home/subham/colcon_ws/install/eyantra_warehouse:/home/subham/colcon_ws/install/ackerman_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:577dd51d-23b3-4139-a8c6-d610a5169a81'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/subt_ws/src/subt_cave_sim/models:/home/subham/subt_ws/src/subt_cave_sim/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/jsk_recognition_msgs/local/lib/python3.10/dist-packages:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_ros2/local/lib/python3.10/dist-packages:/home/subham/omokai_ws/build/llm_navigation:/home/subham/omokai_ws/install/llm_navigation/lib/python3.10/site-packages:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/build/adas_perception:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_perception/lib/python3.10/site-packages:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/build/adas_navigation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_navigation/lib/python3.10/site-packages:/home/subham/rover_ws/build/rover_navigation:/home/subham/rover_ws/install/rover_navigation/lib/python3.10/site-packages:/home/subham/anvrit_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/subham/anvrit_ws/install/anvrit_perception/lib/python3.10/site-packages:/home/subham/anvrit_ws/install/anvrit_odometry/lib/python3.10/site-packages:/home/subham/anvrit_ws/install/anvrit_nav2/lib/python3.10/site-packages:/home/subham/igvc/build/igvc_perception:/home/subham/igvc/install/igvc_perception/lib/python3.10/site-packages:/home/subham/igvc/build/igvc_navigation:/home/subham/igvc/install/igvc_navigation/lib/python3.10/site-packages:/home/subham/colcon_ws/build/ros2ai:/home/subham/colcon_ws/install/ros2ai/lib/python3.10/site-packages:/home/subham/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_simulator:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_description:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/velodyne_gazebo_plugins:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/salsanext_ros2:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/patchwork_plusplus:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_description:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/jsk_recognition_msgs:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_ros2:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/height_mapping_core:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/fastdem_ros2:/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/fastdem:/home/subham/omokai_ws/install/llm_simulation:/home/subham/omokai_ws/install/llm_prompt:/home/subham/omokai_ws/install/llm_description:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_simulation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_description:/home/subham/rover_ws/install/rover_gazebo:/home/subham/rover_ws/install/rover_description:/home/subham/rover_ws/install/rf2o_laser_odometry:/home/subham/anvrit_ws/install/rplidar_ros:/home/subham/anvrit_ws/install/astra_camera:/home/subham/anvrit_ws/install/astra_camera_msgs:/home/subham/anvrit_ws/install/anvrit_description:/home/subham/igvc/install/velodyne_simulator:/home/subham/igvc/install/velodyne_description:/home/subham/igvc/install/velodyne_gazebo_plugins:/home/subham/igvc/install/igvc_simulation:/home/subham/igvc/install/igvc_description:/home/subham/colcon_ws/install/ur_simulation_gz:/home/subham/colcon_ws/install/ur_description:/home/subham/colcon_ws/install/ur5_control_2481:/home/subham/colcon_ws/install/s2481_ebot_description:/home/subham/colcon_ws/install/linkattacher_msgs:/home/subham/colcon_ws/install/eyantra_warehouse:/home/subham/colcon_ws/install/ackerman_description:/home/subham/omokai_ws/install/llm_navigation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_perception:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_navigation:/home/subham/rover_ws/install/rover_navigation:/home/subham/anvrit_ws/install/anvrit_perception:/home/subham/anvrit_ws/install/anvrit_odometry:/home/subham/anvrit_ws/install/anvrit_nav2:/home/subham/igvc/install/igvc_perception:/home/subham/igvc/install/igvc_navigation:/home/subham/colcon_ws/install/ros2ai:/opt/ros/humble')]), 'shell': False}
+[0.099860] (-) TimerEvent: {}
+[0.200376] (-) TimerEvent: {}
+[0.214812] (segmentation_lidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300554] (-) TimerEvent: {}
+[0.370871] (segmentation_lidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.391670] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400736] (-) TimerEvent: {}
+[0.501292] (-) TimerEvent: {}
+[0.597858] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.601404] (-) TimerEvent: {}
+[0.617133] (segmentation_lidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.617747] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.618669] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.626499] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701604] (-) TimerEvent: {}
+[0.802164] (-) TimerEvent: {}
+[0.864468] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.884320] (segmentation_lidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.885044] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.886179] (segmentation_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.902279] (-) TimerEvent: {}
+[0.908566] (segmentation_lidar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002458] (-) TimerEvent: {}
+[1.103015] (-) TimerEvent: {}
+[1.203542] (-) TimerEvent: {}
+[1.304156] (-) TimerEvent: {}
+[1.404691] (-) TimerEvent: {}
+[1.505171] (-) TimerEvent: {}
+[1.605602] (-) TimerEvent: {}
+[1.706064] (-) TimerEvent: {}
+[1.806472] (-) TimerEvent: {}
+[1.906887] (-) TimerEvent: {}
+[2.007335] (-) TimerEvent: {}
+[2.037354] (segmentation_lidar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.107495] (-) TimerEvent: {}
+[2.207991] (-) TimerEvent: {}
+[2.308490] (-) TimerEvent: {}
+[2.408945] (-) TimerEvent: {}
+[2.488213] (segmentation_lidar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.509070] (-) TimerEvent: {}
+[2.609476] (-) TimerEvent: {}
+[2.709927] (-) TimerEvent: {}
+[2.755310] (segmentation_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.795562] (segmentation_lidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.810081] (-) TimerEvent: {}
+[2.845497] (segmentation_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.908780] (segmentation_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.910192] (-) TimerEvent: {}
+[2.996285] (segmentation_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.010326] (-) TimerEvent: {}
+[3.110743] (-) TimerEvent: {}
+[3.211254] (-) TimerEvent: {}
+[3.252368] (segmentation_lidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.277057] (segmentation_lidar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.311411] (-) TimerEvent: {}
+[3.411953] (-) TimerEvent: {}
+[3.512403] (-) TimerEvent: {}
+[3.613055] (-) TimerEvent: {}
+[3.679669] (segmentation_lidar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.713211] (-) TimerEvent: {}
+[3.790743] (segmentation_lidar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.813344] (-) TimerEvent: {}
+[3.913765] (-) TimerEvent: {}
+[3.958848] (segmentation_lidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.013925] (-) TimerEvent: {}
+[4.022565] (segmentation_lidar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.114104] (-) TimerEvent: {}
+[4.214824] (-) TimerEvent: {}
+[4.226565] (segmentation_lidar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.227684] (segmentation_lidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.314986] (-) TimerEvent: {}
+[4.415522] (-) TimerEvent: {}
+[4.439826] (segmentation_lidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.442627] (segmentation_lidar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.515689] (-) TimerEvent: {}
+[4.616410] (-) TimerEvent: {}
+[4.651347] (segmentation_lidar) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.716569] (-) TimerEvent: {}
+[4.767147] (segmentation_lidar) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.816779] (-) TimerEvent: {}
+[4.912312] (segmentation_lidar) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.916915] (-) TimerEvent: {}
+[4.964611] (segmentation_lidar) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[5.017072] (-) TimerEvent: {}
+[5.085014] (segmentation_lidar) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[5.085331] (segmentation_lidar) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.117228] (-) TimerEvent: {}
+[5.217663] (-) TimerEvent: {}
+[5.304067] (segmentation_lidar) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[5.317845] (-) TimerEvent: {}
+[5.357448] (segmentation_lidar) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[5.417993] (-) TimerEvent: {}
+[5.501379] (segmentation_lidar) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[5.501761] (segmentation_lidar) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.518143] (-) TimerEvent: {}
+[5.618561] (-) TimerEvent: {}
+[5.718997] (-) TimerEvent: {}
+[5.819440] (-) TimerEvent: {}
+[5.919908] (-) TimerEvent: {}
+[6.020356] (-) TimerEvent: {}
+[6.120807] (-) TimerEvent: {}
+[6.221244] (-) TimerEvent: {}
+[6.321684] (-) TimerEvent: {}
+[6.422169] (-) TimerEvent: {}
+[6.522611] (-) TimerEvent: {}
+[6.623082] (-) TimerEvent: {}
+[6.723494] (-) TimerEvent: {}
+[6.823925] (-) TimerEvent: {}
+[6.924362] (-) TimerEvent: {}
+[7.024833] (-) TimerEvent: {}
+[7.125271] (-) TimerEvent: {}
+[7.225678] (-) TimerEvent: {}
+[7.326104] (-) TimerEvent: {}
+[7.426540] (-) TimerEvent: {}
+[7.526990] (-) TimerEvent: {}
+[7.627433] (-) TimerEvent: {}
+[7.711088] (segmentation_lidar) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.727596] (-) TimerEvent: {}
+[7.749327] (segmentation_lidar) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[7.827740] (-) TimerEvent: {}
+[7.846247] (segmentation_lidar) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[7.847525] (segmentation_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.927837] (-) TimerEvent: {}
+[7.993374] (segmentation_lidar) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.3.0.85, include: /home/subham/anvrit_ws/install/astra_camera/include/openni2, lib: /home/subham/anvrit_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)\n'}
+[8.027966] (-) TimerEvent: {}
+[8.128393] (-) TimerEvent: {}
+[8.229288] (-) TimerEvent: {}
+[8.236553] (segmentation_lidar) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[8.248341] (segmentation_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.259362] (segmentation_lidar) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.3.0.85, include: /home/subham/anvrit_ws/install/astra_camera/include/openni2, lib: /home/subham/anvrit_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)\n'}
+[8.329643] (-) TimerEvent: {}
+[8.430114] (-) TimerEvent: {}
+[8.488793] (segmentation_lidar) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[8.530268] (-) TimerEvent: {}
+[8.630709] (-) TimerEvent: {}
+[8.710937] (segmentation_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.730829] (-) TimerEvent: {}
+[8.831232] (-) TimerEvent: {}
+[8.913966] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[8.914983] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[8.916104] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[8.917185] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[8.918321] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[8.919472] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[8.919943] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[8.920361] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[8.921790] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[8.923187] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[8.924320] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[8.925430] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[8.926767] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[8.928079] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[8.929331] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[8.930561] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[8.931304] (-) TimerEvent: {}
+[8.931888] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[8.933203] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[8.934451] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[8.935577] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[8.936539] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[8.936918] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[8.937468] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[8.938796] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[8.940002] (segmentation_lidar) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[8.942439] (segmentation_lidar) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:17 (find_package):\n'}
+[8.942654] (segmentation_lidar) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[8.942724] (segmentation_lidar) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[8.942789] (segmentation_lidar) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[8.942843] (segmentation_lidar) StderrLine: {'line': b'\n'}
+[8.942897] (segmentation_lidar) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[8.942950] (segmentation_lidar) StderrLine: {'line': b'\n'}
+[8.943002] (segmentation_lidar) StderrLine: {'line': b'    /usr\n'}
+[8.943054] (segmentation_lidar) StderrLine: {'line': b'\n'}
+[8.943106] (segmentation_lidar) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[8.943160] (segmentation_lidar) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.943213] (segmentation_lidar) StderrLine: {'line': b'\x1b[0m\n'}
+[8.959813] (segmentation_lidar) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:52 (message):\n'}
+[8.960116] (segmentation_lidar) StderrLine: {'line': b'  onnxruntime C++ SDK not found.  Install the real C++ package (not only the\n'}
+[8.960180] (segmentation_lidar) StderrLine: {'line': b'  Python package), or set ONNXRUNTIME_ROOT to a directory containing\n'}
+[8.960236] (segmentation_lidar) StderrLine: {'line': b'  include/onnxruntime/core/session/onnxruntime_cxx_api.h and\n'}
+[8.960304] (segmentation_lidar) StderrLine: {'line': b'  lib/libonnxruntime.so.\n'}
+[8.960358] (segmentation_lidar) StderrLine: {'line': b'\n'}
+[8.960410] (segmentation_lidar) StderrLine: {'line': b'\x1b[0m\n'}
+[8.960462] (segmentation_lidar) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.960526] (segmentation_lidar) StdoutLine: {'line': b'See also "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar/CMakeFiles/CMakeOutput.log".\n'}
+[8.985282] (segmentation_lidar) CommandEnded: {'returncode': 1}
+[9.017259] (segmentation_lidar) JobEnded: {'identifier': 'segmentation_lidar', 'rc': 1}
+[9.028289] (-) EventReactorShutdown: {}

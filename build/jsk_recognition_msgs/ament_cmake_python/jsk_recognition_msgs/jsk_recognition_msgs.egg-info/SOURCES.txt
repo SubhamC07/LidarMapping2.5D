@@ -1,0 +1,8 @@
+setup.py
+jsk_recognition_msgs/__init__.py
+jsk_recognition_msgs.egg-info/PKG-INFO
+jsk_recognition_msgs.egg-info/SOURCES.txt
+jsk_recognition_msgs.egg-info/dependency_links.txt
+jsk_recognition_msgs.egg-info/top_level.txt
+jsk_recognition_msgs/msg/__init__.py
+jsk_recognition_msgs/msg/_polygon_array.py

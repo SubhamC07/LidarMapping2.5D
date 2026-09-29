@@ -1,0 +1,98 @@
+[0.038s] Invoking command in '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subham/omokai_ws/install/llm_navigation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_perception:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_navigation:/home/subham/rover_ws/install/rover_navigation:/home/subham/anvrit_ws/install/anvrit_perception:/home/subham/anvrit_ws/install/anvrit_odometry:/home/subham/anvrit_ws/install/anvrit_nav2:/home/subham/igvc/install/igvc_perception:/home/subham/igvc/install/igvc_navigation:/home/subham/colcon_ws/install/ros2ai:/opt/ros/humble /usr/bin/cmake /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/segmentation_lidar -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.388s] -- Detecting C compiler ABI info
+[0.594s] -- Detecting C compiler ABI info - done
+[0.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.614s] -- Detecting C compile features
+[0.615s] -- Detecting C compile features - done
+[0.623s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.034s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.485s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.752s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.792s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.842s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.249s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.274s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.676s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.787s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.019s] -- Looking for pthread.h
+[4.223s] -- Looking for pthread.h - found
+[4.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.439s] -- Found Threads: TRUE  
+[4.648s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.764s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.909s] -- Checking for module 'eigen3'
+[4.961s] --   Found eigen3, version 3.4.0
+[5.082s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.082s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.301s] -- Checking for module 'flann'
+[5.354s] --   Found flann, version 1.9.1
+[5.498s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.498s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.708s] -- Checking for module 'libusb-1.0'
+[7.746s] --   Found libusb-1.0, version 1.0.25
+[7.843s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.844s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.990s] -- OpenNI2 found (version: 2.3.0.85, include: /home/subham/anvrit_ws/install/astra_camera/include/openni2, lib: /home/subham/anvrit_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)
+[8.233s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.245s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.256s] -- OpenNI2 found (version: 2.3.0.85, include: /home/subham/anvrit_ws/install/astra_camera/include/openni2, lib: /home/subham/anvrit_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)
+[8.485s] -- Found Qhull version 8.0.2
+[8.707s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.910s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[8.911s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[8.913s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[8.914s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[8.915s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[8.916s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[8.916s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[8.917s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[8.918s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[8.920s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[8.921s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[8.922s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[8.923s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[8.925s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[8.926s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[8.927s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[8.928s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[8.930s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[8.931s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[8.932s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[8.933s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[8.933s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[8.934s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[8.935s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[8.936s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[8.939s] [33mCMake Warning (dev) at CMakeLists.txt:17 (find_package):
+[8.939s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[8.939s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[8.939s]   command to set the policy and suppress this warning.
+[8.939s] 
+[8.939s]   CMake variable PCL_ROOT is set to:
+[8.939s] 
+[8.939s]     /usr
+[8.939s] 
+[8.939s]   For compatibility, CMake is ignoring the variable.
+[8.940s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.940s] [0m
+[8.956s] [31mCMake Error at CMakeLists.txt:52 (message):
+[8.956s]   onnxruntime C++ SDK not found.  Install the real C++ package (not only the
+[8.957s]   Python package), or set ONNXRUNTIME_ROOT to a directory containing
+[8.957s]   include/onnxruntime/core/session/onnxruntime_cxx_api.h and
+[8.957s]   lib/libonnxruntime.so.
+[8.957s] 
+[8.957s] [0m
+[8.957s] -- Configuring incomplete, errors occurred!
+[8.957s] See also "/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar/CMakeFiles/CMakeOutput.log".
+[8.982s] Invoked command in '/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/segmentation_lidar' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subham/omokai_ws/install/llm_navigation:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_perception:/home/subham/Edge_AI_for_ADAS_and_Autonomous_Systems/install/adas_navigation:/home/subham/rover_ws/install/rover_navigation:/home/subham/anvrit_ws/install/anvrit_perception:/home/subham/anvrit_ws/install/anvrit_odometry:/home/subham/anvrit_ws/install/anvrit_nav2:/home/subham/igvc/install/igvc_perception:/home/subham/igvc/install/igvc_navigation:/home/subham/colcon_ws/install/ros2ai:/opt/ros/humble /usr/bin/cmake /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/src/segmentation_lidar -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar

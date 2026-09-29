@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target segmentation_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/segmentation_node.dir/src/segmentation_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable segmentation_node[0m
+[100%] Built target segmentation_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//launch/segmentation.launch.py
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//models/rangenet_int8.onnx
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53.tar.gz
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/arch_cfg.yaml
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/backbone
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/data_cfg.yaml
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/model.onnx
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/segmentation_decoder
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/darknet53/segmentation_head
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar//pretrained/quantize.py
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/lib/segmentation_lidar/segmentation_node
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/ament_index/resource_index/package_run_dependencies/segmentation_lidar
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/ament_index/resource_index/parent_prefix_path/segmentation_lidar
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/environment/path.sh
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/environment/path.dsv
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/local_setup.bash
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/local_setup.sh
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/local_setup.zsh
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/local_setup.dsv
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/package.dsv
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/ament_index/resource_index/packages/segmentation_lidar
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/cmake/segmentation_lidarConfig.cmake
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/cmake/segmentation_lidarConfig-version.cmake
+-- Up-to-date symlink: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/segmentation_lidar/share/segmentation_lidar/package.xml

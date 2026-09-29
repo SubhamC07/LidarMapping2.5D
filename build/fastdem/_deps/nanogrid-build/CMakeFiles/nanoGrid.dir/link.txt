@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnanoGrid.a CMakeFiles/nanoGrid.dir/src/GridMap.cpp.o CMakeFiles/nanoGrid.dir/src/GridMapMath.cpp.o CMakeFiles/nanoGrid.dir/src/BufferRegion.cpp.o
+/usr/bin/ranlib libnanoGrid.a

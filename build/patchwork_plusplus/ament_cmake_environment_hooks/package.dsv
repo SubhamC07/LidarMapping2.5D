@@ -1,0 +1,4 @@
+source;share/patchwork_plusplus/local_setup.bash
+source;share/patchwork_plusplus/local_setup.dsv
+source;share/patchwork_plusplus/local_setup.sh
+source;share/patchwork_plusplus/local_setup.zsh

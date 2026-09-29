@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from jsk_recognition_msgs/msg/PolygonArray.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PolygonStamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module jsk_recognition_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "PolygonArray is a list of PolygonStamped." "\n"
+      "You can use jsk_rviz_plugins to visualize PolygonArray on rviz.")
+    struct PolygonArray {
+      std_msgs::msg::Header header;
+
+      sequence<geometry_msgs::msg::PolygonStamped> polygons;
+
+      sequence<uint32> labels;
+
+      sequence<float> likelihood;
+    };
+  };
+};

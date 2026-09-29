@@ -17,8 +17,9 @@
   <link name="base_link_person">
     <inertial>
       <mass value="${person_mass}"/>
-      <origin xyz="0 0 ${person_height / 2.0}" rpy="0 0 0"/>
-      <inertia ixx="5.0" ixy="0.0" ixz="0.0" iyy="5.0" iyz="0.0" izz="1.0"/>
+      <!-- Shift CoM down close to the base_link level instead of height/2 -->
+      <origin xyz="0 0 0.1" rpy="0 0 0"/> 
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
     </inertial>
 
     <visual>
@@ -57,8 +58,8 @@
         <surface>
           <friction>
             <ode>
-              <mu>1.0</mu>
-              <mu2>1.0</mu2>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
             </ode>
           </friction>
         </surface>
@@ -75,10 +76,10 @@
   </xacro:macro>
 
   <!-- Instantiate 4 Fake Wheels (Front/Rear, Left/Right) -->
-  <xacro:fake_wheel prefix="fl" x_offset="0.2" y_offset="0.25"/>
-  <xacro:fake_wheel prefix="fr" x_offset="0.2" y_offset="-0.25"/>
-  <xacro:fake_wheel prefix="rl" x_offset="-0.2" y_offset="0.25"/>
-  <xacro:fake_wheel prefix="rr" x_offset="-0.2" y_offset="-0.25"/>
+  <xacro:fake_wheel prefix="fl" x_offset="0.35" y_offset="0.45"/>
+  <xacro:fake_wheel prefix="fr" x_offset="0.35" y_offset="-0.45"/>
+  <xacro:fake_wheel prefix="rl" x_offset="-0.35" y_offset="0.45"/>
+  <xacro:fake_wheel prefix="rr" x_offset="-0.35" y_offset="-0.45"/>
 
   <!-- ============================================== -->
   <!-- GAZEBO PLUGINS                                 -->
@@ -95,7 +96,7 @@
       <right_joint>rr_joint</right_joint>
 
       <!-- Kinematic dimensions -->
-      <wheel_separation>0.50</wheel_separation>
+      <wheel_separation>0.90</wheel_separation>
       <wheel_radius>0.15</wheel_radius>
 
       <!-- Limits -->

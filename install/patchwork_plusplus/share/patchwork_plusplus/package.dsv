@@ -1,0 +1,11 @@
+source;share/patchwork_plusplus/hook/cmake_prefix_path.ps1
+source;share/patchwork_plusplus/hook/cmake_prefix_path.dsv
+source;share/patchwork_plusplus/hook/cmake_prefix_path.sh
+source;share/patchwork_plusplus/hook/ld_library_path_lib.ps1
+source;share/patchwork_plusplus/hook/ld_library_path_lib.dsv
+source;share/patchwork_plusplus/hook/ld_library_path_lib.sh
+source;share/patchwork_plusplus/local_setup.bash
+source;share/patchwork_plusplus/local_setup.dsv
+source;share/patchwork_plusplus/local_setup.ps1
+source;share/patchwork_plusplus/local_setup.sh
+source;share/patchwork_plusplus/local_setup.zsh

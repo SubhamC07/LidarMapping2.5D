@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/build/lid_simulation
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/config/bridge.yaml
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/launch/terrain.launch.py
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/crater/meshes/crater4k.stl
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/crater/meshes/crater_martian_red.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/crater/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/crater/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/curiosity_path/meshes/curiosity_path25k.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/curiosity_path/meshes/curiosity_path25k.stl
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/curiosity_path/meshes/mars_texture_lq.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/curiosity_path/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/curiosity_path/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/custom_terrain/meshes/custom_terrain.STL
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/custom_terrain/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/custom_terrain/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/jaggedrock/meshes/basecolor.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/jaggedrock/meshes/bumpy.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/jaggedrock/meshes/jaggedrock_texture.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/jaggedrock/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/jaggedrock/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/mars_texture.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/mars_texture_lq.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/reddish-sand.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/terrain.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/terrain.stl
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/meshes/terrain_textured.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/mars_terrain/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rock9/meshes/rock9.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rock9/meshes/rock9.stl
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rock9/meshes/texture.jpg
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rock9/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rock9/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rockformation/meshes/SMALL_RED_BaseColor.png
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rockformation/meshes/rockformation.dae
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rockformation/model.config
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/models/rockformation/model.sdf
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/worlds/terrain.world
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/ament_index/resource_index/package_run_dependencies/lid_simulation
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/ament_index/resource_index/parent_prefix_path/lid_simulation
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/environment/path.sh
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/environment/path.dsv
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/local_setup.bash
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/local_setup.sh
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/local_setup.zsh
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/local_setup.dsv
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/package.dsv
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/ament_index/resource_index/packages/lid_simulation
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/cmake/lid_simulationConfig.cmake
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/cmake/lid_simulationConfig-version.cmake
+-- Symlinking: /media/subham/85dce0f4-2e29-4540-9a32-801850cfcef6/subham/LidarMapping2.5D/install/lid_simulation/share/lid_simulation/package.xml
