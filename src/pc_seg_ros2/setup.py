@@ -24,6 +24,7 @@ setup(
         "console_scripts": [
             "seg_infer_node = pc_seg_ros2.seg_infer_node:main",
             "cluster_bbox_node = pc_seg_ros2.cluster_bbox_node:main",
+            "terrain_analysis = pc_seg_ros2.terrain_analysis:main",
         ],
     },
 )

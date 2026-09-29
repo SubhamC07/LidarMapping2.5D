@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <robot name="person_walking" xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <xacro:property name="person_mass" value="60.0" />
+  <xacro:property name="person_mass" value="10.0" />
   <xacro:property name="person_height" value="2.0" />
   <xacro:property name="person_radius" value="0.3" />
   <xacro:property name="person_mesh" value="file://$(find lid_description)/meshes/person_walking/meshes/walking.dae" />
 
-  <link name="base_footprint"/>
+  <link name="base_footprint_person"/>
 
-  <joint name="base_joint" type="fixed">
-    <parent link="base_footprint"/>
-    <child link="base_link"/>
-    <!-- Lift the base_link slightly so the person's feet don't drag on the floor -->
-    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  <joint name="base_joint_person" type="fixed">
+    <parent link="base_footprint_person"/>
+    <child link="base_link_person"/>
+    <!-- Elevate base_link so wheels rest flush on ground level -->
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
   </joint>
 
-  <link name="base_link">
+  <link name="base_link_person">
     <inertial>
       <mass value="${person_mass}"/>
       <origin xyz="0 0 ${person_height / 2.0}" rpy="0 0 0"/>
@@ -28,10 +28,12 @@
       </geometry>
     </visual>
 
+    <!-- Visual person body collision omitted or simplified to avoid ground clipping -->
     <collision>
       <origin xyz="0 0 ${person_height / 2.0}" rpy="0 0 1.57"/>
       <geometry>
         <cylinder radius="${person_radius}" length="${person_height}"/>
+        <!-- <mesh filename="${person_mesh}" scale="1 1 1"/> -->
       </geometry>
     </collision>
   </link>
@@ -42,9 +44,9 @@
   <xacro:macro name="fake_wheel" params="prefix x_offset y_offset">
     <link name="${prefix}_wheel">
       <inertial>
-        <mass value="1.0"/>
+        <mass value="0.5"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
-        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
       </inertial>
       <!-- Invisible collision sphere for physics -->
       <collision>
@@ -52,20 +54,27 @@
         <geometry>
           <sphere radius="0.15"/>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
     </link>
 
     <joint name="${prefix}_joint" type="continuous">
-      <parent link="base_link"/>
+      <parent link="base_link_person"/>
       <child link="${prefix}_wheel"/>
-      <!-- The wheels are placed around the person's base -->
-      <origin xyz="${x_offset} ${y_offset} 0.1" rpy="0 0 0"/>
+      <!-- Wheel center is 0.15m below base_link_person to reach ground (z=0) -->
+      <origin xyz="${x_offset} ${y_offset} -0.15" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
     </joint>
   </xacro:macro>
 
   <!-- Instantiate 4 Fake Wheels (Front/Rear, Left/Right) -->
-  <!-- x_offset: 0.2m forward/backward, y_offset: 0.25m left/right -->
   <xacro:fake_wheel prefix="fl" x_offset="0.2" y_offset="0.25"/>
   <xacro:fake_wheel prefix="fr" x_offset="0.2" y_offset="-0.25"/>
   <xacro:fake_wheel prefix="rl" x_offset="-0.2" y_offset="0.25"/>
@@ -75,45 +84,34 @@
   <!-- GAZEBO PLUGINS                                 -->
   <!-- ============================================== -->
   <gazebo>
-    <!-- Velocity Control System for Ignition Fortress -->
-    <plugin filename="libignition-gazebo-velocity-control-system.so" 
-            name="ignition::gazebo::systems::VelocityControl">
-      <topic>/cmd_vel</topic>
-    </plugin>
-
-    <!-- Odometry Publisher System for Ignition Fortress -->
-    <plugin filename="ignition-gazebo-odometry-publisher-system"
-            name="ignition::gazebo::systems::OdometryPublisher">
-      <odom_topic>odom</odom_topic>
-      <odom_frame>odom</odom_frame>
-      <tf_topic>tf</tf_topic>
-      <robot_base_frame>base_footprint</robot_base_frame>
-    </plugin>
-
     <!-- Diff Drive System (Configured for 4-wheel Skid Steer) -->
     <plugin filename="ignition-gazebo-diff-drive-system" name="ignition::gazebo::systems::DiffDrive">
-      <!-- Bind both left wheels to the left side -->
+      <!-- Left side wheels -->
       <left_joint>fl_joint</left_joint>
       <left_joint>rl_joint</left_joint>
 
-      <!-- Bind both right wheels to the right side -->
+      <!-- Right side wheels -->
       <right_joint>fr_joint</right_joint>
       <right_joint>rr_joint</right_joint>
 
       <!-- Kinematic dimensions -->
-      <wheel_separation>0.5</wheel_separation> <!-- Distance between left and right wheels (0.25 * 2) -->
+      <wheel_separation>0.50</wheel_separation>
       <wheel_radius>0.15</wheel_radius>
 
       <!-- Limits -->
-      <max_acceleration>10.0</max_acceleration>
-      <max_linear_velocity>5.0</max_linear_velocity>
-      <min_linear_velocity>-5.0</min_linear_velocity>
-      <max_angular_velocity>2.0</max_angular_velocity>
-      <min_angular_velocity>-2.0</min_angular_velocity>
-      
-      <topic>cmd_vel</topic>
-      <frame_id>odom</frame_id>
-      <child_frame_id>base_footprint</child_frame_id>
+      <max_linear_acceleration>3.20</max_linear_acceleration>
+      <max_angular_acceleration>3.20</max_angular_acceleration>
+
+      <topic>cmd_vel_person</topic>
+      <odom_topic>/odom_person</odom_topic>
+      <tf_topic>/tf_person</tf_topic>
+      <frame_id>odom_person</frame_id>
+      <child_frame_id>base_footprint_person</child_frame_id>
+    </plugin>
+
+    <!-- Joint State Publisher plugin for publishing wheel transforms -->
+    <plugin filename="ignition-gazebo-joint-state-publisher-system" name="ignition::gazebo::systems::JointStatePublisher">
+      <topic>/joint_states_person</topic>
     </plugin>
   </gazebo>
 

@@ -168,12 +168,12 @@
           <vertical>
             <samples>64</samples>
             <resolution>1</resolution>
-            <min_angle>-0.261799</min_angle>
+            <min_angle>-0.561799</min_angle>
             <max_angle>0.361799</max_angle>
           </vertical>
         </scan>
         <range>
-          <min>0.3</min>
+          <min>0.8</min>
           <max>15.0</max>
           <resolution>0.01</resolution>
         </range>

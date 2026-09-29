@@ -68,7 +68,7 @@
 #   gz_type_name: "ignition.msgs.IMU"
 #   direction: GZ_TO_ROS
 
-- gz_topic_name: "/world/eyantra_world/time"
+- gz_topic_name: "/world/marsyard2020_terrain/time"
   ros_topic_name: "/_ros_status"
   gz_type_name: "ignition.msgs.Contacts"
   ros_type_name: "ros_gz_interfaces/msg/Contacts"
