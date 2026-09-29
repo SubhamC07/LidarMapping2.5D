@@ -18,7 +18,7 @@ def generate_launch_description():
     rover_gazebo = get_package_share_directory("lid_simulation")
     world_file = LaunchConfiguration(
         "world_file", 
-        default=join(rover_gazebo, "worlds", "terrain.world") #small_warehouse.world
+        default=join(rover_gazebo, "worlds", "mars.world") #small_warehouse.world
     )
 
     gz_sim_share = get_package_share_directory("ros_gz_sim")

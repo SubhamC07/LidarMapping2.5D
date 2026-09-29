@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <scene>
+      <background>0.79 0.59 0.26 1</background>
+    </scene>
+
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <gravity>0 0 -3.711</gravity>
+    </physics>
+
+    <light type="directional" name="directional_light_1">
+      <pose>0 20 20 0.1 0.1 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <attenuation>
+        <range>300</range>
+      </attenuation>
+      <direction>0.1 0.1 -1</direction>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <include>
+      <uri>model://marsyard2020_terrain</uri>
+      <name>mars</name>
+      <pose>0 0 0 1.57 0 0</pose>
+    </include>
+  </world>
+</sdf>
