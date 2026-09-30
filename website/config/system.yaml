@@ -1,0 +1,23 @@
+simulation:
+  enabled: true
+  update_rate_hz: 15
+  fps_min: 10
+  fps_max: 15
+  people_detected: 1
+
+map:
+  resolutions:
+    near: 0.1
+    middle: 0.5
+    far: 1.0
+  ranges:
+    near_max: 20.0
+    middle_max: 50.0
+
+point_cloud:
+  frame_id: "velodyne"
+  classes:
+    0: "FLAT_GROUND"
+    1: "RAISED_LAND"
+    2: "POTHOLE"
+    3: "OBSTACLE"

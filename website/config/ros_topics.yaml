@@ -1,0 +1,41 @@
+ros:
+  domain_id: 0
+  namespace: "/perception_system"
+  
+  lidar:
+    pointcloud_topics:
+      - name: "FLAT_GROUND"
+        topic: "/terrain/flat_ground"
+      - name: "RAISED_LAND"
+        topic: "/terrain/raised_land"
+      - name: "POTHOLE"
+        topic: "/terrain/potholes"
+      - name: "OBSTACLE"
+        topic: "/terrain/obstacles"
+    frame_id: "velodyne"
+
+  perception:
+    segmented_pointcloud_topic: "/perception/segmented_points"
+    obstacle_topic: "/perception/dynamic_obstacles"
+    fps_topic: "/perception/fps"
+    classes:
+      0: "FLAT_GROUND"
+      1: "RAISED_LAND"
+      2: "POTHOLE"
+      3: "OBSTACLE"
+
+  map:
+    elevation_topic: "/fastdem/mapping/cloud_global"
+    grid_topic: "/fastdem/mapping/gridmap"
+    resolutions:
+      near: 0.1   # meters per cell
+      middle: 0.5
+      far: 1.0
+    ranges:
+      near_max: 20.0  # meters
+      middle_max: 50.0 # meters
+
+  system:
+    update_rate: 15 # Hz
+    reconnect_interval: 2
+    point_size: 0.05
